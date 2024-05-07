@@ -24,7 +24,7 @@
 # else:
 #     print("value of b is", b)
 
-#nested if statement condition and else condition 
+# nested if statement condition and else condition
 # a = 16
 # b = 25
 # c = 27
@@ -49,7 +49,7 @@
 
 # print("temperatures and facts about the moon".title())
 
-#some date time work
+# some date time work
 # from datetime import datetime
 
 # print(datetime.today())
