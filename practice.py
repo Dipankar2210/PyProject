@@ -84,14 +84,16 @@
 # # total_seconds = duration.total_seconds()
 # # print("Total Seconds",total_seconds)
 
-from datetime import datetime, timedelta
+# from datetime import datetime, timedelta
+#
+# current_date = datetime.today()
+# print(current_date.date())
+# # print("current week is",current_date.isocalendar()[1]) *** to get week number
+#
+# future_date = current_date + timedelta(days=40)
+# print(future_date.date())
+#
+# past_week = current_date - timedelta(weeks=10)
+# print(past_week)
 
-current_date = datetime.today()
-print(current_date.date())
-# print("current week is",current_date.isocalendar()[1]) *** to get week number
 
-future_date = current_date + timedelta(days=40)
-print(future_date.date())
-
-past_week = current_date - timedelta(weeks=10)
-print(past_week)
